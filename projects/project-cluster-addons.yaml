@@ -9,7 +9,7 @@ spec:
     kind: '*'
   destinations: #Both "name" and "server" are used to cover all use cases
   - name: in-cluster
-    namespace: '*'
+    namespace: 'default'
     server: https://kubernetes.default.svc
   sourceRepos:
   - https://github.com/PauloJFCabral/gitops-masterclass-appprojects-template
